@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+    <h2>login</h2>
+    <ul>
+        <li><input type="text" id="Name" placeholder="name"></li>
+        <li><input type="text" id="LastName" placeholder="lastname"></li>
+        <li><input type="number" placeholder="Age"></li>
+        <li><input type="email" id="email" placeholder="email@email.com"></li>
+        <li><label for="employed">Employed</label>
+            <input type="radio" id="employed" name="employment status" value="employed"><label>Unemployed </label>
+            <input type="radio" id="unemployed" name="employment status" value="unemployed"></li>
+            <li><input type="password" id="pass1"  placeholder="*********"></li>
+            <li><input type="password" id="pass2" placeholder="*********"></li>
+            <button type="submit" id="submit-button" onclick="checkPasswords(); validateEmail();"><p>submit</p></button>
+    </ul>
+    </form>
+
+        <a href="./index2.html">Page 2</a>
+    <script src="./script.js"></script>
+</body>
+</html>

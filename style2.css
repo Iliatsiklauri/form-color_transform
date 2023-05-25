@@ -1,0 +1,53 @@
+body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Fz61_PsmTSQJa9zzgtbRymsungylBULAtg&usqp=CAU);
+    background-position: center;
+    background-size: auto;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#grand-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    border: 3px solid #4D5157 ;
+    border-radius: 10px;
+    background-color: #333;
+    margin-bottom: -500px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: -50px;
+    padding-top: 3px;
+}
+form input{
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+
+    
+}
+#submit{
+    padding: 5px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#color-form{
+    display: flex;
+    justify-content: center;
+}
+#color-preview {
+    width: 30px;
+    height: 28px;
+    background-color: white;
+    border: 2px solid #4D5157;
+    border-radius: 10px;
+}
